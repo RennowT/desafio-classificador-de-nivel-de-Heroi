@@ -1,23 +1,28 @@
-let nomeHeroi = 'Rogério'
-let xpHeroi = '7983'
+let numeroDeHerois = 3
+let nomeHeroi = ['Rogério', 'Cleber', 'Tomas']
+let xpHeroi = [8438, 2133, 9532]
+let nivelHeroi = ['Ferro', 'Ferro', 'Ferro']
 
-let nivelHeroi
-if (xpHeroi <= 1000) {
-    nivelHeroi = 'Ferro'  
-} else if (xpHeroi >= 1001 && xpHeroi <= 2000) {
-    nivelHeroi = 'Bronze'
-} else if (xpHeroi >= 2001 && xpHeroi <= 5000) {
-    nivelHeroi = 'Prata'
-} else if (xpHeroi >= 5001 && xpHeroi <= 7000) {
-    nivelHeroi = 'Ouro'
-} else if (xpHeroi >= 7001 && xpHeroi <= 8000) {
-    nivelHeroi = 'Platina'
-} else if (xpHeroi >= 8001 && xpHeroi <= 9000) {
-    nivelHeroi = 'Ascendente'
-} else if (xpHeroi >= 9001 && xpHeroi <= 10000) {
-    nivelHeroi = 'Imortal'
-} else {
-    nivelHeroi = 'Radiante'
+for (let i = 0; i < numeroDeHerois; i++) {
+    if (xpHeroi[i] <= 1000) {
+        nivelHeroi[i] = 'Ferro'  
+    } else if (xpHeroi[i] >= 1001 && xpHeroi[i] <= 2000) {
+        nivelHeroi[i] = 'Bronze'
+    } else if (xpHeroi[i] >= 2001 && xpHeroi[i] <= 5000) {
+        nivelHeroi[i] = 'Prata'
+    } else if (xpHeroi[i] >= 5001 && xpHeroi[i] <= 7000) {
+        nivelHeroi[i] = 'Ouro'
+    } else if (xpHeroi[i] >= 7001 && xpHeroi[i] <= 8000) {
+        nivelHeroi[i] = 'Platina'
+    } else if (xpHeroi[i] >= 8001 && xpHeroi[i] <= 9000) {
+        nivelHeroi[i] = 'Ascendente'
+    } else if (xpHeroi[i] >= 9001 && xpHeroi[i] <= 10000) {
+        nivelHeroi[i] = 'Imortal'
+    } else {
+        nivelHeroi[i] = 'Radiante'
+    }    
 }
 
-console.log(`O Herói de nome ${nomeHeroi} está no nível de ${nivelHeroi}`)
+for (let i = 0; i < numeroDeHerois; i++) {
+    console.log(`O Herói de nome ${nomeHeroi[i]} está no nível de ${nivelHeroi[i]}`)
+}
