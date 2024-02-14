@@ -2,7 +2,6 @@ class Player {
     constructor(victories, defeats) {
         this.victories = victories
         this.defeats = defeats
-        this.level
     }
 }
 
