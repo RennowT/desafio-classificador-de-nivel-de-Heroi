@@ -4,4 +4,4 @@ Entrega do desafio proposto, onde foi feito um design system um wireframe de mé
 
 O Projeto é de um site de corretora:
 
-![Imagem do Figma](prototipo.png)
+![Imagem do Figma](prototipo.jpg)
