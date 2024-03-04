@@ -1,0 +1,171 @@
+body {
+    margin: 16px 52px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    margin: 48px 0;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+h4 {
+    padding: 0;
+    margin: 0;
+}
+
+h5 {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+details {
+    border: none;
+    padding: 0;
+    margin: 0; 
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary {
+    list-style-type: none;
+}
+
+input {
+    border: none;
+    padding: 0;
+    margin: 0; 
+}
+
+button {
+    border: none;
+    padding: 0;
+    margin: 0; 
+}
+
+.container-menu-logo {
+    display: flex;
+    align-items: center;
+}
+
+.icon-menu {
+    width: 40px;
+    height: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.logo-icon {
+    width: 52px;
+    height: auto;
+}
+
+.logo-text {
+    text-align: center;
+}
+
+.pesquisar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+}
+
+.pesquisar-campo {
+    display: flex;
+    align-items: center;
+}
+
+.icon-pesquisar {
+    width: 24px;
+    height: auto;
+}
+
+.container-conta {
+    display: flex;
+    align-content: center;
+}
+
+.conta {
+    display: flex;
+    align-content: center;
+    
+}
+
+.conta p {
+    margin: 8px;
+}
+
+.container-ponto {
+    text-align: right;
+}
+
+.icon-pontos {
+    width: 40px;
+    height: auto;
+}
+
+.menu-aberto {
+    background-color: white;
+    width: 200px;
+}
+
+.content-container {
+    margin-left: 32px;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+}
+
+.text {
+    margin: 0 24px 0 0;
+}
+
+.lista-duas-colunas {
+    columns: 2;
+}
+
+li {
+    margin-bottom: 8px;
+}
